@@ -1,0 +1,33 @@
+ipykernel
+transformers
+transformers[sentencepiece]
+datasets
+sacrebleu # For evaluation
+rouge_score # For evaluation
+py7zr # For handling 7z files
+pandas 
+nltk 
+tqdm
+PyYAML
+matplotlib
+torch
+notebook
+boto3
+mypy-boto3-s3 # For AWS S3 interactions
+python-box==6.0.2
+ensure==1.0.2
+fastapi==0.78.0
+uvicorn==0.18.3 # For serving the model
+Jinja2==3.1.2 # For FastAPI templating
+boto3 
+mypy-boto3-s3
+-e .
+
+
+
+## Additional cmd
+
+
+# pip install --upgrade accelerate
+# pip uninstall -y transformers accelerate
+# pip install transformers accelerate
